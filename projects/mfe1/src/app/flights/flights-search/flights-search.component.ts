@@ -16,8 +16,8 @@ export class FlightsSearchComponent {
   constructor(private service: AuthLibService, private route: ActivatedRoute) {
     console.log('User Name', this.service.user);
     console.log('Route Snapshot', this.route.snapshot.data);
-    if (this.route.snapshot.data.interviewers) {
-      this.rows = this.route.snapshot.data['interviewers'];
+    if (this.route.snapshot.data.users) {
+      this.rows = this.route.snapshot.data['users'];
     }
   }
 }
