@@ -1,0 +1,19 @@
+.name-cell {
+
+}
+
+.name-header {
+    width: 229px;
+}   
+
+.time-available-header {
+    width: 150px;
+}
+
+.time-requested-header {
+    width: 150px;
+}
+
+.time-overage-header {
+    width: 129px;
+}
