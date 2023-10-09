@@ -4,10 +4,10 @@ import { AuthLibService } from 'auth-lib';
 
 
 @Component({
-  selector: 'app-flights-search',
-  templateUrl: './flights-search.component.html'
+  selector: 'app-users-search',
+  templateUrl: './users-search.component.html'
 })
-export class FlightsSearchComponent {
+export class UsersSearchComponent {
   columns = [{
     prop: 'name',
   }];

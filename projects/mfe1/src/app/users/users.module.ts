@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FlightsSearchComponent } from './flights-search/flights-search.component';
+import { UsersSearchComponent } from './users-search/users-search.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { RouterModule } from '@angular/router';
-import { FLIGHTS_ROUTES } from './flights.routes';
+import { USERS_ROUTES } from './user.routes';
 import { AuthLibModule } from 'auth-lib';
 import { SharedLibModule } from 'shared-lib';
 
@@ -13,10 +13,10 @@ import { SharedLibModule } from 'shared-lib';
     AuthLibModule,
     NgxDatatableModule,
     SharedLibModule,
-    RouterModule.forChild(FLIGHTS_ROUTES)
+    RouterModule.forChild(USERS_ROUTES)
   ],
   declarations: [
-    FlightsSearchComponent
+    UsersSearchComponent
   ]
 })
 export class MfeModule { }
