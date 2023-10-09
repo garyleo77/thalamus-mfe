@@ -17,8 +17,7 @@ Have a particular look at the following files:
 ## Installation and Usage
 
 - Install packages: ``yarn`` (!)*
-- Start Micro Frontend (remote): ``ng serve mfe1 -o``
-- Start Shell (host): ``ng serve shell -o``
+- Start Micro Frontend (remote): ``yarn run start:mfe1``
 - Make sure ``mfe1`` is started before ``shell`` is loaded into the browser
 - Use the hyperlink ``users`` in the ``shell`` to load `mfe1`
 
